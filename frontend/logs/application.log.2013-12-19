@@ -1,0 +1,926 @@
+Dec 19 08:48:28 [php                           ] : <E> Undefined variable: product (C:\wamp\www\yorshop\frontend\controllers\CartController.php:207)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/payment/12/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (207)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 08:56:36 [php                           ] : <E> Undefined index: shipping (C:\wamp\www\yorshop\frontend\controllers\CartController.php:189)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/payment/12/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (189)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 08:57:53 [php                           ] : <E> Undefined index: items (C:\wamp\www\yorshop\frontend\controllers\CartController.php:203)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/payment/12/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (203)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 09:04:08 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/cart/
+---
+Dec 19 09:04:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/cart/
+---
+Dec 19 09:05:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/cart/
+---
+Dec 19 09:05:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/cart/
+---
+Dec 19 09:06:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/
+---
+Dec 19 09:06:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/
+---
+Dec 19 09:06:45 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '30'
+            'name' => 'Canon EOS 5D'
+            'model' => 'Product 3'
+            'quantity' => 1
+            'stock' => '7'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 09:06:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:06:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:06:55 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '30'
+            'name' => 'Canon EOS 5D'
+            'model' => 'Product 3'
+            'quantity' => 2
+            'stock' => '7'
+            'price' => '100.0000'
+            'total' => 200
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 09:06:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:06:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:07:04 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '30'
+            'name' => 'Canon EOS 5D'
+            'model' => 'Product 3'
+            'quantity' => 3
+            'stock' => '7'
+            'price' => '100.0000'
+            'total' => 300
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 09:07:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:07:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/30/?quantity=1
+---
+Dec 19 09:07:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 19 09:07:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 19 09:08:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/13/
+---
+Dec 19 09:08:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/13/
+---
+Dec 19 09:09:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/13/
+---
+Dec 19 09:09:15 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/13/
+---
+Dec 19 12:22:20 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:100
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('list')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/list')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/list')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/default/?page=3
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/
+---
+Dec 19 12:24:16 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:100
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('list')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/list')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/list')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/default/
+---
+Dec 19 12:28:56 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalidgh.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:100
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('list')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/list')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/list')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/default
+---
+Dec 19 12:29:24 [exception.CHttpException.405  ] : <E> exception 'CHttpException' with message 'Your request is invalidgh.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:100
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('list')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/list')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/list')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/default
+---
+Dec 19 12:57:02 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:86
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+---
+Dec 19 12:57:53 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:86
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+---
+Dec 19 12:59:01 [php                           ] : <E> Undefined index: subcategory (C:\wamp\www\yorshop\frontend\controllers\CategoryController.php:79)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#3 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#6 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/list/?page=2
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (79)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 13:49:40 [exception.CException          ] : <E> exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "with".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(95): CComponent->__call('with', Array)
+#1 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(95): CDbCriteria->with(Array)
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:51:27 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Relation "categoryDescription" is not defined in active record class "Product".' in C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'categoryDescrip...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1549): CActiveFinder->__construct(Object(Product), Array)
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(99): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:52:20 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Relation "categoryDescription" is not defined in active record class "Category".' in C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'categories.cate...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1549): CActiveFinder->__construct(Object(Product), Array)
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(99): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:52:36 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (99)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 13:52:36 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(99): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:53:36 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (link = :link) ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (107)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 13:53:36 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (link = :link) ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(107): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:54:29 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `product` `t` WHERE link = :link. Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (99)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 13:54:29 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'link' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `product` `t` WHERE link = :link. Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(99): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:55:24 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (108)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 13:55:24 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(108): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 13:56:19 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (108)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 13:56:19 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(108): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 14:05:14 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (100)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 14:05:14 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(100): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 14:06:13 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categories.categoryDescriptions.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categories.categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (100)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 14:06:13 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categories.categoryDescriptions.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categories.categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(100): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 14:06:36 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (100)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 14:06:36 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescription.link' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescription.link = :link) AND (categoryDescriptions.locale_code = 'en'). Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(100): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 14:08:15 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (108)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 14:08:15 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_modified' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30`, `categories`.`id` AS `t1_c0`, `categories`.`store_id` AS `t1_c1`, `categories`.`parent_id` AS `t1_c2`, `categories`.`top` AS `t1_c3`, `categories`.`column` AS `t1_c4`, `categories`.`sort_order` AS `t1_c5`, `categories`.`status` AS `t1_c6`, `categories`.`date_added` AS `t1_c7`, `categories`.`date_modified` AS `t1_c8`, `categoryDescriptions`.`category_id` AS `t2_c0`, `categoryDescriptions`.`locale_code` AS `t2_c1`, `categoryDescriptions`.`name` AS `t2_c2`, `categoryDescriptions`.`link` AS `t2_c3`, `categoryDescriptions`.`description` AS `t2_c4`, `categoryDescriptions`.`meta_description` AS `t2_c5`, `categoryDescriptions`.`meta_keyword` AS `t2_c6` FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.link = :link) AND (categoryDescriptions.locale_code = 'en') ORDER BY date_modified DESC LIMIT 12. Bound with :link='mp3-players'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(108): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('mp3-players')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 19 14:38:33 [php                           ] : <E> Undefined variable: products (C:\wamp\www\yorshop\frontend\views\product\product.php:1)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(42): ProductController->render()
+#3 unknown(0): ProductController->actionView()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+in C:\wamp\www\yorshop\frontend\views\product\product.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\ProductController.php (42)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 19 14:39:23 [exception.CException          ] : <E> exception 'CException' with message 'ProductController cannot find the requested view "_default".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\product\product.php(1): CController->renderPartial('_default', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('product', Array, true)
+#5 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(42): CController->render('product', Array)
+#6 [internal function]: ProductController->actionView('33')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/view')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/view')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/monitors/
+---
+Dec 19 14:40:35 [php                           ] : <E> Undefined variable: quantity (C:\wamp\www\yorshop\frontend\views\product\_product.php:23)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\frontend\views\product\product.php(1): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(42): ProductController->render()
+#7 unknown(0): ProductController->actionView()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+in C:\wamp\www\yorshop\frontend\views\product\_product.php (23)
+in C:\wamp\www\yorshop\frontend\views\product\product.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\ProductController.php (42)
+Dec 19 14:40:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/product_price.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:40:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/product_stock.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:40:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/delivery_icon.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:40:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/pay_delivery.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:40:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/product_buynow.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:40:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/product_price.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:41:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "33".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('33')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('33')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/33/img/...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/33/img/...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/33/img/product_buynow.png
+---
+Dec 19 14:48:28 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '33'
+            'name' => 'Samsung SyncMaster 941BW'
+            'model' => 'Product 6'
+            'quantity' => 1
+            'stock' => '1000'
+            'price' => '200.0000'
+            'total' => 200
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 14:48:28 [exception.CException          ] : <E> exception 'CException' with message 'CartController and its behaviors do not have a method or closure named "getCartSubTotal".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\cart\_cart.php(33): CComponent->__call('getCartSubTotal', Array)
+#1 C:\wamp\www\yorshop\frontend\views\cart\_cart.php(33): CartController->getCartSubTotal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#5 C:\wamp\www\yorshop\frontend\views\cart\cart.php(1): CController->renderPartial('_cart', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('cart', Array, true)
+#10 C:\wamp\www\yorshop\frontend\controllers\CartController.php(77): CController->render('cart', Array)
+#11 [internal function]: CartController->actionAddToCart('33')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/33/?quantity=1
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/33/?name=Samsung+SyncMaster+941BW
+---
+Dec 19 14:53:58 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '33'
+            'name' => 'Samsung SyncMaster 941BW'
+            'model' => 'Product 6'
+            'quantity' => 2
+            'stock' => '1000'
+            'price' => '200.0000'
+            'total' => 400
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 19 14:56:50 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+---
+Dec 19 14:57:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+---
+Dec 19 15:30:20 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '36'
+            'name' => 'iPod Nano'
+            'model' => 'Product 9'
+            'quantity' => 1
+            'stock' => '994'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (71)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)

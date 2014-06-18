@@ -1,0 +1,1 @@
+<?php $this->renderPartial('_default', array('products' => $products, 'pages'=>$pages)); ?>

@@ -1,0 +1,110 @@
+Jan 12 17:56:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/21/
+---
+Jan 12 18:04:09 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\PaymentController.php:61
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('payment')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('payment')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/payment/?resp=Z4&desc=Unknown%20product%20id%20of%2018,%20&txnRef=52d2c933af2963&payRef=&retRef=&cardNum=0&apprAmt=0
+---
+Jan 12 18:06:42 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\PaymentController.php:61
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('payment')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('payment')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/payment/?resp=Z4&desc=Unknown%20product%20id%20of%2018,%20&txnRef=52d2c933af2963&payRef=&retRef=&cardNum=0&apprAmt=0
+---
+Jan 12 20:13:12 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart/...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart/...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/30/product/view
+HTTP_REFERER=http://localhost/yorshop/frontend/www/payment/?resp=Z4&desc=Unknown%20product%20id%20of%2018,%20&txnRef=52d2c933af2963&payRef=&retRef=&cardNum=0&apprAmt=0
+---
+Jan 12 20:14:00 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\PaymentController.php:61
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('payment')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('payment')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/payment/?resp=Z4&desc=Unknown%20product%20id%20of%2018,%20&txnRef=52d2c933af2963&payRef=&retRef=&cardNum=0&apprAmt=0
+---
+Jan 12 20:14:23 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\PaymentController.php:61
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('payment')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('payment')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/payment/?resp=Z4&desc=Unknown%20product%20id%20of%2018,%20&txnRef=52d2c933af2963&payRef=&retRef=&cardNum=0&apprAmt=0
+---
+Jan 12 20:16:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/22/
+---
+Jan 12 20:30:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/23/
+---
+Jan 12 22:28:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/24/
+---

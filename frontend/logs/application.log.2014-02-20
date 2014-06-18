@@ -1,0 +1,1384 @@
+Feb 20 07:53:53 [exception.CException          ] : <E> exception 'CException' with message 'Property "UserChangePassword.username" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(UserChangePassword), 'username')
+#2 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(2221): CHtml::activeInputField('text', Object(UserChangePassword), 'username', Array)
+#3 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(1497): TbHtml::activeTextInputField('text', Object(UserChangePassword), 'username', Array)
+#4 C:\wamp\www\yorshop\frontend\views\user\login.php(40): TbHtml::activeTextField(Object(UserChangePassword), 'username')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('frontend.views....', Array, true)
+#9 C:\wamp\www\yorshop\common\modules\user\controllers\ProfileController.php(99): CController->render('frontend.views....', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProfileController->actionChangepassword()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('changepassword')
+#15 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/profile/ch...')
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/profile/ch...')
+#17 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#19 {main}
+REQUEST_URI=/yorshop/frontend/www/user/profile/changepassword/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/profile/edit/
+---
+Feb 20 08:03:30 [exception.CException          ] : <E> exception 'CException' with message 'Property "UserChangePassword.username" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(UserChangePassword), 'username')
+#2 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(2221): CHtml::activeInputField('text', Object(UserChangePassword), 'username', Array)
+#3 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(1497): TbHtml::activeTextInputField('text', Object(UserChangePassword), 'username', Array)
+#4 C:\wamp\www\yorshop\frontend\views\user\login.php(40): TbHtml::activeTextField(Object(UserChangePassword), 'username')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('frontend.views....', Array, true)
+#9 C:\wamp\www\yorshop\common\modules\user\controllers\ProfileController.php(99): CController->render('frontend.views....', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProfileController->actionChangepassword()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('changepassword')
+#15 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/profile/ch...')
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/profile/ch...')
+#17 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#19 {main}
+REQUEST_URI=/yorshop/frontend/www/user/profile/changepassword/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/profile/edit/
+---
+Feb 20 10:09:08 [php                           ] : <E> include(CrudController.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\controllers\OrderController.php(4): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(354): require()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#6 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/order/history/
+in C:\wamp\www\yorshop\frontend\controllers\OrderController.php (4)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Feb 20 10:09:35 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'The requested is invalid.' in C:\wamp\www\yorshop\frontend\controllers\OrderController.php:78
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OrderController->actionHistory()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('history')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('order/history')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('order/history')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/order/history/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/profile/
+---
+Feb 20 10:17:35 [php                           ] : <E> include(UserModule.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\order\history.php(1): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): OrderController->renderInternal()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): OrderController->renderFile()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): OrderController->renderPartial()
+#5 C:\wamp\www\yorshop\frontend\controllers\OrderController.php(78): OrderController->render()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OrderController->actionHistory()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): OrderController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): OrderController->runActionWithFilters()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): OrderController->run()
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/order/history/
+in C:\wamp\www\yorshop\frontend\views\order\history.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\OrderController.php (78)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 10:18:29 [php                           ] : <E> Missing argument 2 for YiiBase::t(), called in C:\wamp\www\yorshop\frontend\views\order\history.php on line 1 and defined (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:571)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): OrderController->renderInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): OrderController->renderFile()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): OrderController->renderPartial()
+#3 C:\wamp\www\yorshop\frontend\controllers\OrderController.php(78): OrderController->render()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OrderController->actionHistory()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): OrderController->runAction()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): OrderController->runActionWithFilters()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): OrderController->run()
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/order/history/
+in C:\wamp\www\yorshop\frontend\views\order\history.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\OrderController.php (78)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 10:57:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 10:58:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/
+---
+Feb 20 10:58:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 11:05:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 11:07:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 11:38:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+---
+Feb 20 12:31:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/137/65e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/137/65e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/139/4a1...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/139/4a1...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/138/76e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/138/76e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/135/0679f60b965f4b428cbf252127c5b471.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/135/067...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/135/067...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/135/0679f60b965f4b428cbf252127c5b471.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/136/b96ad7ca8117985fe442a84624209073.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/136/b96...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/136/b96...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/136/b96ad7ca8117985fe442a84624209073.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/134/194...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/134/194...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/116/0d2b73a04da62c2671eb84a00759f32b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/116/0d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/116/0d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/116/0d2b73a04da62c2671eb84a00759f32b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/34/ebf6...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/34/ebf6...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/114/5d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/114/5d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/113/d2a...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/113/d2a...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/112/a92...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/112/a92...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:31:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/5e45c3ab47319b129782db9731db777b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/5e4...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/5e4...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/111/5e45c3ab47319b129782db9731db777b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:32:19 [php                           ] : <E> Undefined variable: category (C:\wamp\www\yorshop\frontend\widgets\views\footer.php:6)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): Footer->renderFile()
+#1 C:\wamp\www\yorshop\frontend\widgets\Footer.php(6): Footer->render()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): Footer->run()
+#3 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(59): CategoryController->widget()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CategoryController->renderFile()
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#8 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/phones/
+in C:\wamp\www\yorshop\frontend\widgets\views\footer.php (6)
+in C:\wamp\www\yorshop\frontend\widgets\Footer.php (6)
+in C:\wamp\www\yorshop\frontend\views\layouts\column3.php (59)
+Feb 20 12:33:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/139/4a1...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/139/4a1...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/138/76e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/138/76e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/135/0679f60b965f4b428cbf252127c5b471.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/135/067...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/135/067...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/135/0679f60b965f4b428cbf252127c5b471.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/136/b96ad7ca8117985fe442a84624209073.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/136/b96...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/136/b96...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/136/b96ad7ca8117985fe442a84624209073.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/137/65e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/137/65e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:08 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/134/194...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/134/194...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:10 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/34/ebf6...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/34/ebf6...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/116/0d2b73a04da62c2671eb84a00759f32b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/116/0d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/116/0d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/116/0d2b73a04da62c2671eb84a00759f32b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/114/5d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/114/5d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/113/d2a...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/113/d2a...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:13 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/112/a92...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/112/a92...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/5e45c3ab47319b129782db9731db777b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/5e4...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/5e4...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/111/5e45c3ab47319b129782db9731db777b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:33:47 [exception.CException          ] : <E> exception 'CException' with message 'Footer and its behaviors do not have a method or closure named "createUrl".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\widgets\views\footer.php(6): CComponent->__call('createUrl', Array)
+#1 C:\wamp\www\yorshop\frontend\widgets\views\footer.php(6): Footer->createUrl('/page/contactus')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\wamp\www\yor...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, false)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\wamp\www\yor...', Array, false)
+#5 C:\wamp\www\yorshop\frontend\widgets\Footer.php(6): CWidget->render('footer', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): Footer->run()
+#7 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(59): CBaseController->widget('frontend.widget...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CController->render('default', Array)
+#12 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('phones')
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/frontend/www/category/phones/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/137/65e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/137/65e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/137/65eca160775ea4f08f62f1476e7b5125.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/134/194...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/134/194...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/134/1949346fa44e09b785bc2f6eb1a8b8f0.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/135/0679f60b965f4b428cbf252127c5b471.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/135/067...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/135/067...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/135/0679f60b965f4b428cbf252127c5b471.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/136/b96ad7ca8117985fe442a84624209073.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/136/b96...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/136/b96...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/136/b96ad7ca8117985fe442a84624209073.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/138/76e...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/138/76e...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/138/76e968cf558d87850e4237b6fdafd5c8.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/139/4a1...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/139/4a1...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/139/4a1979ab5aafb2bdc3fe7d4ff1723766.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/34/ebf6...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/34/ebf6...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/34/ebf6efa2b0cab8da029c163a997faf9b.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/116/0d2b73a04da62c2671eb84a00759f32b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/116/0d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/116/0d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/116/0d2b73a04da62c2671eb84a00759f32b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/114/5d2...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/114/5d2...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/114/5d215d0de702cc7e7bf54e3f6168780f.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/113/d2a...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/113/d2a...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/113/d2a87543811dee8e4eef0ddb49b454f2.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/112/a92...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/112/a92...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/112/a924fe136e0c32b1dd0c028c05a726dd.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/5e45c3ab47319b129782db9731db777b.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/5e4...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/5e4...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/111/5e45c3ab47319b129782db9731db777b.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:41:08 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/logo_visa.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/logo_visa.p...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/logo_visa.p...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/logo_visa.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Feb 20 12:42:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/logo_visa.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/logo_visa.p...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/logo_visa.p...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/logo_visa.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/login/
+---
+Feb 20 12:56:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/166/062c82844ad3a6603abb2c94e8ca6925.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/166/062...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/166/062...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/166/062c82844ad3a6603abb2c94e8ca6925.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/165/9002af7630bf839d7846098ac26efee6.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/165/900...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/165/900...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/165/9002af7630bf839d7846098ac26efee6.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/162/5861c1c7f086912e2e3cc7e9a08fa384.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/162/586...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/162/586...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/162/5861c1c7f086912e2e3cc7e9a08fa384.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/163/e56725bd3b963ad232c35d07e3ba2466.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/163/e56...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/163/e56...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/163/e56725bd3b963ad232c35d07e3ba2466.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/161/8a58c046dc8a78b482d21cff95c3ef0c.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/161/8a5...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/161/8a5...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/161/8a58c046dc8a78b482d21cff95c3ef0c.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:31 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/164/a31c270ed434e1810b1868083cd8a5b2.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/164/a31...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/164/a31...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/164/a31c270ed434e1810b1868083cd8a5b2.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/128/991e566876ae2898dece004fb8a4fb07.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/128/991...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/128/991...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/128/991e566876ae2898dece004fb8a4fb07.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/126/c7159db26c1cef037b5b06621b60fcfc.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/126/c71...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/126/c71...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/126/c7159db26c1cef037b5b06621b60fcfc.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/125/2ce674895ef10bab91b2de585bbb7162.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/125/2ce...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/125/2ce...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/125/2ce674895ef10bab91b2de585bbb7162.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/124/fd44b1756bb0a5e6f9190c1b9bf8e5a7.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/124/fd4...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/124/fd4...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/124/fd44b1756bb0a5e6f9190c1b9bf8e5a7.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/95/3af31966b962845120b52263bb1a586e.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/95/3af3...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/95/3af3...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/95/3af31966b962845120b52263bb1a586e.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 20 12:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/166/062c82844ad3a6603abb2c94e8ca6925.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/166/062...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/166/062...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/166/062c82844ad3a6603abb2c94e8ca6925.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/164/a31c270ed434e1810b1868083cd8a5b2.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/164/a31...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/164/a31...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/164/a31c270ed434e1810b1868083cd8a5b2.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/165/9002af7630bf839d7846098ac26efee6.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/165/900...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/165/900...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/165/9002af7630bf839d7846098ac26efee6.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/163/e56725bd3b963ad232c35d07e3ba2466.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/163/e56...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/163/e56...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/163/e56725bd3b963ad232c35d07e3ba2466.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/161/8a58c046dc8a78b482d21cff95c3ef0c.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/161/8a5...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/161/8a5...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/161/8a58c046dc8a78b482d21cff95c3ef0c.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/162/5861c1c7f086912e2e3cc7e9a08fa384.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/162/586...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/162/586...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/162/5861c1c7f086912e2e3cc7e9a08fa384.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/85/611044bdfa49fb6ce57affc0be80f299.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/85/6110...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/85/6110...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/85/611044bdfa49fb6ce57affc0be80f299.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/84/a2be35ec421bf86c3715359f9643d393.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/84/a2be...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/84/a2be...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/84/a2be35ec421bf86c3715359f9643d393.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/83/0f0b2d3baaac17805d143691900c4b6e.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/83/0f0b...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/83/0f0b...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/83/0f0b2d3baaac17805d143691900c4b6e.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:47 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/82/4a9ccb577a2519fb79dd348431fe8b2c.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/82/4a9c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/82/4a9c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/82/4a9ccb577a2519fb79dd348431fe8b2c.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:47 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/81/2760ef61c439eae48b97cf484550a492.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/81/2760...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/81/2760...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/81/2760ef61c439eae48b97cf484550a492.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:56:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/80/3d94bff8280ee95afbc8825c60470b1b.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/80/3d94...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/80/3d94...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/80/3d94bff8280ee95afbc8825c60470b1b.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 20 12:59:13 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  LEFT OUTER JOIN `product_special` `productSpecials` ON (`productSpecials`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2))) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='laptops', :link2='laptops'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (82)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 12:59:13 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  LEFT OUTER JOIN `product_special` `productSpecials` ON (`productSpecials`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2))) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='laptops', :link2='laptops'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('laptops')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/computer/laptops/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/laptops/?sort=brand&type=top_seller
+---
+Feb 20 17:10:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "terms-conditions".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('terms-condition...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('terms-condition...')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/terms-cond...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/terms-cond...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/terms-conditions/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 17:21:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "terms-conditions".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('terms-condition...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('terms-condition...')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/terms-cond...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/terms-cond...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/terms-conditions/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 17:21:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/id/about-u...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/id/about-u...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/id/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/terms-conditions/
+---
+Feb 20 17:22:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/id/about-u...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/id/about-u...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/id/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/terms-conditions/
+---
+Feb 20 17:22:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/id/about-us/
+---
+Feb 20 17:24:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/id/about-us/
+---
+Feb 20 17:24:10 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view/about...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view/about...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/page/view/about-us/id/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/about-us/
+---
+Feb 20 17:27:25 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view/about...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view/about...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/page/view/about-us/id/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/about-us/
+---
+Feb 20 17:27:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/view/about-us/id/about-us/
+---
+Feb 20 17:28:03 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view/about...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view/about...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/page/view/about-us/
+---
+Feb 20 17:29:53 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Table "page" does not have a column named "0".' in C:\wamp\www\yorshop\common\lib\Yii\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, 'name=:name', Array, '`t`.')
+#1 C:\wamp\www\yorshop\frontend\controllers\PageController.php(10): CActiveRecord->findByAttributes(Array, 'name=:name', Array)
+#2 [internal function]: PageController->actionView('5')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/page/5/
+---
+Feb 20 17:36:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+---
+Feb 20 17:37:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+---
+Feb 20 17:37:54 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Table "page" does not have a column named "0".' in C:\wamp\www\yorshop\common\lib\Yii\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, 'name=:name', Array, '`t`.')
+#1 C:\wamp\www\yorshop\frontend\controllers\PageController.php(10): CActiveRecord->findByAttributes(Array, 'name=:name', Array)
+#2 [internal function]: PageController->actionView('5')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/page/5/
+---
+Feb 20 17:38:19 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Table "page" does not have a column named "0".' in C:\wamp\www\yorshop\common\lib\Yii\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, 'name=:name', Array, '`t`.')
+#1 C:\wamp\www\yorshop\frontend\controllers\PageController.php(10): CActiveRecord->findByAttributes(Array, 'name=:name', Array)
+#2 [internal function]: PageController->actionView('5')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/page/5/
+---
+Feb 20 17:38:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us
+---
+Feb 20 17:48:50 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 17:49:37 [php                           ] : <E> Undefined variable: id (C:\wamp\www\yorshop\frontend\controllers\PageController.php:10)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): PageController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (10)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Feb 20 17:49:56 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Table "page" does not have a column named "0".' in C:\wamp\www\yorshop\common\lib\Yii\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, 'name=:name', Array, '`t`.')
+#1 C:\wamp\www\yorshop\frontend\controllers\PageController.php(10): CActiveRecord->findByAttributes(Array, 'name=:name', Array)
+#2 [internal function]: PageController->actionView('about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 17:56:31 [system.db.CDbCommand          ] : <E> CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `page` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0=':name', :name='about-us'.
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (10)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Feb 20 17:56:31 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `page` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0=':name', :name='about-us'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1297): CDbCommand->queryRow()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1465): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\frontend\controllers\PageController.php(10): CActiveRecord->findByAttributes(Array, '', Array)
+#4 [internal function]: PageController->actionView('about-us')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 17:58:05 [exception.CException          ] : <E> exception 'CException' with message 'Property "Page.description" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('description')
+#1 C:\wamp\www\yorshop\frontend\views\page\view.php(5): CActiveRecord->__get('description')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\yorshop\frontend\controllers\PageController.php(11): CController->render('view', Array)
+#7 [internal function]: PageController->actionView('about-us')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#18 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 18:01:15 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/faq/
+---
+Feb 20 18:03:07 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\frontend\views\page\view.php:2)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): PageController->renderFile()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): PageController->renderPartial()
+#2 C:\wamp\www\yorshop\frontend\controllers\PageController.php(11): PageController->render()
+#3 unknown(0): PageController->actionView()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): PageController->runAction()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+in C:\wamp\www\yorshop\frontend\views\page\view.php (2)
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (11)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 18:05:39 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/view')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/view')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/terms-conditions/
+---
+Feb 20 18:08:40 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\frontend\views\page\view.php:2)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): PageController->renderFile()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): PageController->renderPartial()
+#2 C:\wamp\www\yorshop\frontend\controllers\PageController.php(11): PageController->render()
+#3 unknown(0): PageController->actionView()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): PageController->runAction()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+in C:\wamp\www\yorshop\frontend\views\page\view.php (2)
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (11)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 18:09:04 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\frontend\views\page\view.php:2)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): PageController->renderFile()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): PageController->renderPartial()
+#2 C:\wamp\www\yorshop\frontend\controllers\PageController.php(11): PageController->render()
+#3 unknown(0): PageController->actionView()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): PageController->runAction()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+in C:\wamp\www\yorshop\frontend\views\page\view.php (2)
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (11)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 18:09:20 [exception.CException          ] : <E> exception 'CException' with message 'Property "ContactUsForm.requireCaptcha" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\page\contactus.php(42): CComponent->__get('requireCaptcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('contactus', Array, true)
+#5 C:\wamp\www\yorshop\frontend\controllers\PageController.php(29): CController->render('contactus', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PageController->actionContactUs()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('contactus')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/contactus')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/contactus')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/terms-conditions/
+---
+Feb 20 18:17:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/captcha')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/captcha')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/captcha/?v=530638bf67c28
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/contactus/
+---
+Feb 20 18:18:13 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/captcha')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/captcha')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/captcha/?refresh=1&_=1392916675455
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/contactus/
+---
+Feb 20 18:18:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/captcha')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/captcha')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/captcha/?refresh=1&_=1392916675456
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/contactus/
+---
+Feb 20 18:21:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/captcha')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/captcha')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/captcha/?v=530638bf67c28
+---
+Feb 20 18:22:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/captcha')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/captcha')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/captcha/?v=530638bf67c28
+---
+Feb 20 18:29:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/page/contactus/
+---
+Feb 20 18:33:46 [php                           ] : <E> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\yorshop\common\components\UtilityHelper.php:27)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PageController->actionContactUs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): PageController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/page/contactus/
+in C:\wamp\www\yorshop\common\components\UtilityHelper.php (27)
+in C:\wamp\www\yorshop\frontend\controllers\PageController.php (34)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Feb 20 18:36:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "about-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('about-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('about-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/about-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/about-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/about-us/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Feb 20 18:51:50 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "contact-us".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('contact-us')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('contact-us')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('page/contact-us')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('page/contact-us')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/page/contact-us/
+---

@@ -1,0 +1,38 @@
+Jan 01 00:30:25 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/
+---
+Jan 01 00:30:54 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/
+---

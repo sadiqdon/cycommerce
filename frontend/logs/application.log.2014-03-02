@@ -1,0 +1,50 @@
+Mar 02 20:08:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/
+---
+Mar 02 20:48:40 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/home-%26-kitchen/
+---
+Mar 02 20:50:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/home-%26-kitchen/
+---
+Mar 02 21:47:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/tv/?brand=Samsung
+---
+Mar 02 21:48:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/tv/?brand=LG
+---

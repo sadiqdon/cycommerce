@@ -1,0 +1,55 @@
+Mar 03 07:13:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/tv/?brand=LG&brand=sams
+---
+Mar 03 07:14:39 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  LEFT OUTER JOIN `product_special` `productSpecials` ON (`productSpecials`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2))) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='tv', :link2='tv'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (82)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Mar 03 07:14:39 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  LEFT OUTER JOIN `product_special` `productSpecials` ON (`productSpecials`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2))) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='tv', :link2='tv'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('tv')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/electronics/tv/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/tv/?brand=LG&brand=sams
+---
+Mar 03 17:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/64/
+---
+Mar 03 17:16:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/65/
+---

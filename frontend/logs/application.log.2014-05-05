@@ -1,0 +1,878 @@
+May 05 13:24:38 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:15 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:18 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:49 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:51 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:52 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:55 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:48:56 [exception.CException          ] : <E> exception 'CException' with message 'Property "FrontendBackgroundImages.link" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('link')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\column2_home.php(5): CActiveRecord->__get('link')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, false)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', NULL, false)
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\Column2.php(8): CWidget->render('column2_home')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): Column2->run()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\site\index.php(11): CBaseController->widget('frontend.widget...', Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\SiteController.php(43): CController->render('index', Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('')
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('')
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/
+---
+May 05 13:53:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/css/bootst...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/css/bootst...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/app.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/app.css')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/app.css')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/css/app.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/js/bootstrap.min.js".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/js/bootstr...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/js/bootstr...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/css/bootstrap.min.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/css/bootst...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/css/bootst...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/app.js')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/app.js')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/app.js
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:53:24 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/youtube.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/youtube.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/youtube.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/youtube.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/css/bootst...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/css/bootst...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/css/bootstrap.min.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/css/bootst...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/css/bootst...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "dist/js/bootstrap.min.js".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('dist/js/bootstr...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('dist/js/bootstr...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/dist/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/app.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/app.css')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/app.css')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/css/app.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/app.js')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/app.js')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/app.js
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:54:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/youtube.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/youtube.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/youtube.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/youtube.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/app.css".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/app.css')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/app.css')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/css/app.css
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/app.js')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/app.js')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/app.js
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:55:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/youtube.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/youtube.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/youtube.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/youtube.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:56:43 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/youtube.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/youtube.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/youtube.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/youtube.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:57:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:57:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:57:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:57:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:57:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:57:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/facebook.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/facebook.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/facebook.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/facebook.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/twitter.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/twitter.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/twitter.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/twitter.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/google_plus.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/google_plus...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/google_plus...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/google_plus.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/skype.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/skype.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/skype.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/skype.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/linkedin.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/linkedin.pn...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/linkedin.pn...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/linkedin.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 13:58:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/youtube.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/youtube.png')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/youtube.png')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/youtube.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:00:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:00:59 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:01:10 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:01:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes//img/logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes//img/log...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes//img/log...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes//img/logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:02:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:02:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 14:02:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/
+---
+May 05 15:05:36 [php                           ] : <E> Undefined variable: cid (C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\cart\_shipping.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php(256): CartController->render()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/checkout/
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\cart\_shipping.php (64)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (256)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php (33)
+May 05 15:12:58 [php                           ] : <E> Undefined variable: submit (C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\cart\_shipping.php:76)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php(256): CartController->render()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/checkout/
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\cart\_shipping.php (76)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (256)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php (33)
+May 05 15:19:10 [exception.CException          ] : <E> exception 'CException' with message 'CartController contains improperly nested widget tags in its view "C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views/cart\_shipping.php". A TbActiveForm widget does not have an endWidget() call.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): CController->renderPartial('_shipping', Array, true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php(256): CController->render('_shipping', Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/checkout/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/164/?quantity=1&quick=1&product=hp-pavilion-touchsmart-15-n040us&subcategory=laptops&category=computer
+---

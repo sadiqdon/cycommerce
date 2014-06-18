@@ -1,0 +1,10 @@
+Apr 02 17:43:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/143/?quantity=1&quick=1&product=sharp-lc32le10m-32-inch-led-tv&subcategory=tv&category=electronics
+---

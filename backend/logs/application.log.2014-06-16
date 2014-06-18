@@ -1,0 +1,217 @@
+Jun 16 11:45:47 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:369
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/
+---
+Jun 16 15:13:16 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cycommerce_test_drive2.cache' doesn't exist. The SQL statement executed was: DELETE FROM cache WHERE expire>0 AND expire<1402927996.
+Jun 16 15:13:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "install/setup.php".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('install/setup.p...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('install/setup.p...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/install/setup.php
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/install/ready.php
+---
+Jun 16 15:26:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "install/ready.php".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('install/ready.p...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('install/ready.p...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/install/ready.php
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/install/index.php
+---
+Jun 16 16:06:30 [php                           ] : <E> file_put_contents(/config/main-settings.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SettingsController.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SettingsController->runAction()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterChangePassword()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterAccessControl()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SettingsController->runActionWithFilters()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SettingsController->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+Jun 16 16:08:32 [php                           ] : <E> file_put_contents(/config/main-settings.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SettingsController.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SettingsController->runAction()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterChangePassword()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterAccessControl()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SettingsController->runActionWithFilters()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SettingsController->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+Jun 16 16:08:57 [php                           ] : <E> file_put_contents(/config/main-settings.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SettingsController.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SettingsController->runAction()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterChangePassword()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterAccessControl()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SettingsController->runActionWithFilters()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SettingsController->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+Jun 16 16:10:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "settings/index".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('settings/index')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('settings/index')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/settings/
+---
+Jun 16 16:10:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "settings".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('settings')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('settings')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/
+---
+Jun 16 16:10:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "settings".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('settings')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('settings')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/
+---
+Jun 16 16:12:53 [php                           ] : <E> file_put_contents(/config/main-settings.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SettingsController.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SettingsController->runAction()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterChangePassword()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterAccessControl()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SettingsController->runActionWithFilters()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SettingsController->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+Jun 16 16:13:32 [php                           ] : <E> file_put_contents(/config/main-settings.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SettingsController.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SettingsController->runAction()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterChangePassword()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SettingsController->filterAccessControl()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SettingsController->runActionWithFilters()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SettingsController->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/settings/index/
+Jun 16 16:21:58 [php                           ] : <E> htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\helpers\CHtml.php:98)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): SiteController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): SiteController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SiteController.php(32): SiteController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SiteController->filterChangePassword()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#18 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SiteController->run()
+#19 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/site/index/
+Jun 16 16:22:15 [php                           ] : <E> Array to string conversion (C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\site\index.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SiteController->filterChangePassword()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SiteController->run()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#18 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#19 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#20 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/site/index/

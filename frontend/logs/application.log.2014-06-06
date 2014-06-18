@@ -1,0 +1,12 @@
+Jun 06 11:26:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('site/undefined')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/undefined
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/site/
+---

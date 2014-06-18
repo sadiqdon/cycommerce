@@ -1,0 +1,10 @@
+May 13 12:34:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/category/all/?type=top_seller
+---

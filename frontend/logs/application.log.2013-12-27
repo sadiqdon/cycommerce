@@ -1,0 +1,692 @@
+Dec 27 06:23:02 [exception.CException          ] : <E> exception 'CException' with message 'Property "CategoryController.getCurrentCategory" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\category\_default.php(6): CComponent->__get('getCurrentCateg...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CController->renderPartial('_default', Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('default', Array, true)
+#9 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CController->render('default', Array)
+#10 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('monitors')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#16 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#18 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/monitors/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Dec 27 06:25:11 [exception.CException          ] : <E> exception 'CException' with message 'Alias "frontend.widgets.SearchBox" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(146): YiiBase::import('frontend.widget...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CategoryController), 'frontend.widget...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('frontend.widget...', Array)
+#3 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(39): CBaseController->widget('frontend.widget...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CController->render('default', Array)
+#8 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('monitors')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#18 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/monitors/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Dec 27 06:25:50 [php                           ] : <E> Undefined variable: category (C:\wamp\www\yorshop\frontend\widgets\views\search_block.php:2)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): SearchBlock->renderFile()
+#1 C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php(7): SearchBlock->render()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): SearchBlock->run()
+#3 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(39): CategoryController->widget()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CategoryController->renderFile()
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CategoryController->render()
+#8 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/components/monitors/
+in C:\wamp\www\yorshop\frontend\widgets\views\search_block.php (2)
+in C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php (7)
+in C:\wamp\www\yorshop\frontend\views\layouts\column3.php (39)
+Dec 27 06:27:07 [php                           ] : <E> Undefined variable: category (C:\wamp\www\yorshop\frontend\widgets\views\search_block.php:14)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): SearchBlock->renderFile()
+#1 C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php(7): SearchBlock->render()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): SearchBlock->run()
+#3 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(39): CategoryController->widget()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CategoryController->renderFile()
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CategoryController->render()
+#8 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/components/monitors/
+in C:\wamp\www\yorshop\frontend\widgets\views\search_block.php (14)
+in C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php (7)
+in C:\wamp\www\yorshop\frontend\views\layouts\column3.php (39)
+Dec 27 06:27:52 [php                           ] : <E> Undefined variable: models (C:\wamp\www\yorshop\frontend\widgets\views\search_block.php:15)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): SearchBlock->renderFile()
+#1 C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php(7): SearchBlock->render()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): SearchBlock->run()
+#3 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(39): CategoryController->widget()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): CategoryController->renderFile()
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CategoryController->render()
+#8 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/components/monitors/
+in C:\wamp\www\yorshop\frontend\widgets\views\search_block.php (15)
+in C:\wamp\www\yorshop\frontend\widgets\SearchBlock.php (7)
+in C:\wamp\www\yorshop\frontend\views\layouts\column3.php (39)
+Dec 27 07:00:37 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.link' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (categoryDescriptions.link = :link) ORDER BY t.date_modified DESC LIMIT 12. Bound with :link='components'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (150)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 07:00:37 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.link' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (categoryDescriptions.link = :link) ORDER BY t.date_modified DESC LIMIT 12. Bound with :link='components'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('components')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/printers/
+---
+Dec 27 07:18:25 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `product` `t` WHERE categoryDescriptions.name LIKE :ycp0. Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (142)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 07:18:25 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `product` `t` WHERE categoryDescriptions.name LIKE :ycp0. Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(142): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=&page=2
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+---
+Dec 27 07:20:09 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (categoryDescriptions.name LIKE :ycp0) ORDER BY t.date_modified DESC LIMIT 12. Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (152)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 07:20:09 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (categoryDescriptions.name LIKE :ycp0) ORDER BY t.date_modified DESC LIMIT 12. Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(152): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=&page=2
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+---
+Dec 27 07:36:44 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.names' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.names LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en'). Bound with :ycp0='%iPod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (145)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 07:36:44 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.names' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  WHERE (categoryDescriptions.names LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en'). Bound with :ycp0='%iPod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(145): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=ipod&cat_type=&page=2
+---
+Dec 27 07:41:17 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (productDescriptions.name LIKE :ycp0) ORDER BY t.date_modified DESC LIMIT 12. Bound with :ycp0='%iPod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (155)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 07:41:17 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`model` AS `t0_c1`, `t`.`sku` AS `t0_c2`, `t`.`upc` AS `t0_c3`, `t`.`ean` AS `t0_c4`, `t`.`jan` AS `t0_c5`, `t`.`isbn` AS `t0_c6`, `t`.`mpn` AS `t0_c7`, `t`.`location` AS `t0_c8`, `t`.`quantity` AS `t0_c9`, `t`.`stock_status_id` AS `t0_c10`, `t`.`image` AS `t0_c11`, `t`.`manufacturer_id` AS `t0_c12`, `t`.`shipping` AS `t0_c13`, `t`.`price` AS `t0_c14`, `t`.`points` AS `t0_c15`, `t`.`tax_class_id` AS `t0_c16`, `t`.`date_available` AS `t0_c17`, `t`.`weight` AS `t0_c18`, `t`.`weight_class_id` AS `t0_c19`, `t`.`length` AS `t0_c20`, `t`.`width` AS `t0_c21`, `t`.`height` AS `t0_c22`, `t`.`length_class_id` AS `t0_c23`, `t`.`subtract` AS `t0_c24`, `t`.`minimum` AS `t0_c25`, `t`.`sort_order` AS `t0_c26`, `t`.`status` AS `t0_c27`, `t`.`date_added` AS `t0_c28`, `t`.`date_modified` AS `t0_c29`, `t`.`viewed` AS `t0_c30` FROM `product` `t`  WHERE (productDescriptions.name LIKE :ycp0) ORDER BY t.date_modified DESC LIMIT 12. Bound with :ycp0='%iPod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(761): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(422): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(155): CActiveRecord->findAll(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=ipod&cat_type=&page=2
+---
+Dec 27 08:05:59 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'categoryDescriptions'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `parent` ON (`categories`.`parent_id`=`parent`.`id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`parent`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:05:59 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'categoryDescriptions'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `parent` ON (`categories`.`parent_id`=`parent`.`id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`parent`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:08:55 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:08:55 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:12:00 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category` `categories` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category` `parent` ON (`categories`.`parent_id`=`parent`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`parent`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:12:00 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category` `categories` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category` `parent` ON (`categories`.`parent_id`=`parent`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`parent`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:15:12 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:15:12 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:27:45 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:27:45 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'categoryDescriptions.locale_code' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_c1` ON (`t`.`id`=`categories_c1`.`product_id`) LEFT OUTER JOIN `category` `c1` ON (`c1`.`id`=`categories_c1`.`category_id`)  LEFT OUTER JOIN `category_description` `c2` ON (`c2`.`category_id`=`c1`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`c1`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:29:30 [exception.CDbException        ] : <E> exception 'CDbException' with message 'Relation "categoryDescriptions" is not defined in active record class "Product".' in C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'categoryDescrip...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1549): CActiveFinder->__construct(Object(Product), Array)
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:29:55 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'locale_code' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 08:29:55 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'locale_code' in where clause is ambiguous. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE (productDescriptions.name LIKE :ycp0) AND (categoryDescriptions.locale_code = 'en') AND ((categoryDescriptions.locale_code = 'en') AND (locale_code = 'en')) AND (productDescriptions.locale_code = 'en'). Bound with :ycp0='%ipod%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?search=ipod&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?search=iPod&cat_type=
+---
+Dec 27 08:53:31 [exception.CDbException        ] : <E> exception 'CDbException' with message 'The relation "brand" in active record class "Product" is specified with an invalid foreign key "manufacturer_id". There is no such column in the table "manufacturer".' in C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php:1043
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(1014): CJoinElement->joinOneMany(Object(CJoinElement), Array, Object(CJoinElement), Object(CJoinElement))
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(1242): CJoinElement->getJoinCondition()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(748): CJoinQuery->join(Object(CJoinElement))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(700): CJoinElement->buildQuery(Object(CJoinQuery))
+#4 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('phones-and-pdas')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#17 {main}
+REQUEST_URI=/yorshop/frontend/www/category/phones-and-pdas/?sort=brand
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones-and-pdas/?sort=arrival
+---
+Dec 27 09:21:28 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :twowks='-2 5UTCUTCk28', :link='phones-and-pdas'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 09:21:28 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :twowks='-2 5UTCUTCk28', :link='phones-and-pdas'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('phones-and-pdas')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/phones-and-pdas/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones-and-pdas/?sort=brand
+---
+Dec 27 09:31:38 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :twowks='2013-11-27 0909:1111:3838', :link='phones-and-pdas', :link2='phones-and-pdas'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (148)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 09:31:38 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :twowks='2013-11-27 0909:1111:3838', :link='phones-and-pdas', :link2='phones-and-pdas'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(148): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('phones-and-pdas')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/phones-and-pdas/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones-and-pdas/?sort=brand
+---
+Dec 27 09:41:11 [exception.CException          ] : <E> exception 'CException' with message 'Property "CDbCriteria.addCondition" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(119): CComponent->__set('addCondition', 't.date_added > ...')
+#1 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('phones-and-pdas')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/frontend/www/category/phones-and-pdas/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones-and-pdas/?sort=brand
+---
+Dec 27 09:45:55 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand.name' in 'order clause'. The SQL statement executed was: SELECT * FROM `product` `t` ORDER BY brand.name ASC LIMIT 12.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (156)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 09:45:55 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand.name' in 'order clause'. The SQL statement executed was: SELECT * FROM `product` `t` ORDER BY brand.name ASC LIMIT 12' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(156): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 27 09:48:25 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand.name' in 'order clause'. The SQL statement executed was: SELECT * FROM `product` `t` ORDER BY brand.name ASC LIMIT 12.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (157)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 09:48:25 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'brand.name' in 'order clause'. The SQL statement executed was: SELECT * FROM `product` `t` ORDER BY brand.name ASC LIMIT 12' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(157): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 27 09:56:56 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en').
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (143)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 09:56:56 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (t.date_added > :twowks) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en')' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(143): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=arrival
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?sort=brand&type=arrival&page=2
+---
+Dec 27 10:12:02 [exception.CException          ] : <E> exception 'CException' with message 'Property "CWebUser.groups" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\auth\CWebUser.php(140): CComponent->__get('groups')
+#1 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(125): CWebUser->__get('groups')
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/?sort=hprice
+---
+Dec 27 10:24:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "components".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('components')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('components')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/compone...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/compone...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/product/components/
+---
+Dec 27 10:25:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "components".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('components')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('components')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/components/
+---
+Dec 27 10:25:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "components".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('components')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('components')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/components/
+---
+Dec 27 10:26:29 [exception.CException          ] : <E> exception 'CException' with message 'Property "CWebUser.groups" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\auth\CWebUser.php(140): CComponent->__get('groups')
+#1 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(125): CWebUser->__get('groups')
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 27 10:29:54 [exception.CException          ] : <E> exception 'CException' with message 'Property "CWebUser.groups" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\auth\CWebUser.php(140): CComponent->__get('groups')
+#1 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(125): CWebUser->__get('groups')
+#2 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---
+Dec 27 10:30:23 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productSpecials.c_group_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :ycp0=3, :ycp1=2, :ycp2=1.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (80)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 27 10:30:23 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productSpecials.c_group_id' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `manufacturer` `brand` ON (`t`.`manufacturer_id`=`brand`.`id`)  WHERE (productSpecials.c_group_id IN (:ycp0, :ycp1, :ycp2)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :ycp0=3, :ycp1=2, :ycp2=1' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/all/?sort=brand&type=on_sale
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/all/
+---

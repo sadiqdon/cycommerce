@@ -1,0 +1,63 @@
+Feb 10 14:26:15 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.elevatezoom-3.0.8.min".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/jquery.eleva...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/jquery.eleva...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/js/jquery.elevatezoom-3.0.8.min
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/mp3-players/iPod-Nano/
+---
+Feb 10 14:27:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.elevatezoom-3.0.8.min".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/jquery.eleva...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/jquery.eleva...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/js/jquery.elevatezoom-3.0.8.min
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/mp3-players/iPod-Nano/
+---
+Feb 10 14:27:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.elevatezoom-3.0.8.min".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/jquery.eleva...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/jquery.eleva...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/js/jquery.elevatezoom-3.0.8.min
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/mp3-players/iPod-Nano/
+---
+Feb 10 14:51:34 [php                           ] : <E> Undefined index: id (C:\wamp\www\yorshop\frontend\controllers\CartController.php:190)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#3 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#6 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (190)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Feb 10 15:04:15 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/40/
+---
+Feb 10 16:19:51 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/41/
+---

@@ -1,0 +1,118 @@
+.hide{ display: none;}
+@font-face {
+  font-family: 'Radley';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Radley'), url('../fonts/Radley/Radley-Regular.ttf') format('truetype');
+}
+html, body {
+  
+}
+
+
+body{ background-color: #F6F6F6; padding-top: 50px;}
+#wrap{ position: relative; }
+#noie{ color: #ffe6e6; display: none;}
+
+h1, h2{ font-family: Radley, "Helvetica Neue",Arial,Helvetica,sans-serif; text-shadow: 4px 4px 4px #aaa;}
+
+table th {
+  
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#record-grid table th a, table th a{ 
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+.container {
+ 
+}
+
+.gridimage img{
+	width: 100px;
+	height: 60px;
+}
+
+
+.breadcrumbs, #footer { border: 1px solid #D7D7D7; }
+
+#content{ padding: 0 20px 20px;}
+.grid-view { padding-top:40px; }
+
+.grid-view .table th > .sort-link { color: #FFFFFF; font-weight: normal;}
+#record-grid table.items tr.selected td { background: none repeat scroll 0 0 #BBBBBB;}
+#record-grid table.items tr td { cursor: pointer;}
+#record-grid th .caret{ display: none; }
+#capture{ margin-top: 20px;}
+#capture2{ margin-top: 5px;}
+#instrument-form #Instrument_instrumentImageComment{ width: 790px;}
+/*#instrument-form #Instrument_customerImageComment{ width: 230px;}*/
+.leftImageWrap{ position: relative;}
+.isubhead{ display: block; margin: 15px 0 2px; font-weight: bold;}
+.vsubhead{ margin: 10px 0 5px; font-weight: bold;}
+.labelerror{ color: red;}
+div.update label{ font-size: 14px; }
+input.warningTF{ background-color: #ffe6e6;}
+div.cimage .picbin { display:none;}
+#passport .passport-container { width: 300px; height: 300px; overflow: hidden; }
+#signature .signature-container { width: 500px; height: 300px; overflow: hidden; }
+#loader{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -32px;  /* -1 * image height / 2 */    
+	z-index: 1000;
+}
+
+#footer{
+	position: relative;
+	height:56px;
+    background-color: #F5F5F5;
+    border-radius: 4px 4px 4px 4px;
+    list-style: none outside none;
+    margin: 0 0 20px;
+    padding: 8px 15px;
+text-align: center;
+}
+
+/* Add option value on product page*/
+.accordion-heading a.addoptvalue{ display: inline-block; margin-left: 5px; }
+
+div.input-append input, div.productoptionvalue input, div.productoptionvalue label{ margin: 0; display: inline;}

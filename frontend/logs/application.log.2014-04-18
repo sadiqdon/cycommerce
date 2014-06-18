@@ -1,0 +1,116 @@
+Apr 18 13:06:08 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:13 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:16 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:26 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:32 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:37 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:06:45 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:29:43 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/login/
+---
+Apr 18 13:29:59 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:11 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:14 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:16 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:27 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:35 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:38 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:39 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 13:30:53 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:45:20 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:45:22 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:45:26 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:45:28 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:45:30 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:46:01 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:46:32 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:46:42 [application                   ] : <W> Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\yorshop\common\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 18 14:46:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/registration/
+---

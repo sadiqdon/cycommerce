@@ -1,0 +1,12 @@
+Apr 10 15:04:22 [application                   ] : <W> Failed to set unsafe attribute "comment" of "SpecialOrder".
+in C:\wamp\www\yorshop\frontend\controllers\SpecialOrderController.php (49)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 10 15:07:14 [application                   ] : <W> Failed to set unsafe attribute "comment" of "SpecialOrder".
+in C:\wamp\www\yorshop\frontend\controllers\SpecialOrderController.php (49)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 10 15:08:07 [application                   ] : <W> Failed to set unsafe attribute "comment" of "SpecialOrder".
+in C:\wamp\www\yorshop\frontend\controllers\SpecialOrderController.php (49)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)

@@ -1,0 +1,130 @@
+/*Custom*/
+.text-center{
+	text-align: center;
+}
+
+.shoping_cart {
+	color: white; 
+	background-color: #8d8a87;
+}
+
+.white{
+	color: #fff;
+}
+
+.banner{
+	background-image: url('banner.png');
+}
+.navCon{
+	margin: -1% 0% -0px -2.5%;
+	padding: 0px 0px 10px 0px;
+	width: 105%;
+	background-color: #27ABA6;
+	/*background-color: #60a0ff;/*
+	/*background-image: url('top.jpg');*/
+}
+
+.navConBG{
+	background-image: url('top.jpg');
+}
+.navbottomBG{
+	/*background-image: url('top.jpg');*/
+}
+
+.navbottomBG ul li > a{
+}
+
+
+
+/* Themes css */
+#page{
+	background-color: #fff;
+	border:1px solid #edebe8;
+	margin:20px 5% 20px;
+	padding: 5px 2%;
+}
+
+/*breadcrumb is from bootstrap*/
+.breadcrumb li a {
+	color: #fb4f59;
+}
+
+
+body{
+	/*background-color: #b2d1ff;*/
+	/*background-image: url("bg.jpg");*/
+}
+	
+.social ul li a: hover{
+	background-color: none;
+}	
+	
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+.sale{color:#fff;position:absolute;top:-5px;left:-5px;display:inline-block;width:50px;height:50px;line-height:50px;text-align:center;font-size:16px;border-radius:50%;font-family:"Lobster","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Lucida,Helvetica,Arial,sans-serif;background-color:#c33a0e;background-image:-webkit-gradient(linear, left top, left bottom, from(#fa4408), to(#c33a0e));background-image:-webkit-linear-gradient(top, #fa4408, #c33a0e);background-image:-moz-linear-gradient(top, #fa4408, #c33a0e);background-image:-ms-linear-gradient(top, #fa4408, #c33a0e);background-image:-o-linear-gradient(top, #fa4408, #c33a0e);background-image:linear-gradient(top, #fa4408, #c33a0e)}
+
+.sale2{color:#fff;position:absolute;top:-5px;left:-5px;display:inline-block;width:50px;height:50px;line-height:50px;text-align:center;font-size:16px;border-radius:50%;font-family:"Lobster","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Lucida,Helvetica,Arial,sans-serif;background-color:#419641;background-image:-webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));background-image:-webkit-linear-gradient(top, #5cb85c, #419641);background-image:-moz-linear-gradient(top, #5cb85c, #419641);background-image:-ms-linear-gradient(top, #5cb85c, #419641);background-image:-o-linear-gradient(top, #5cb85c, #c33a0e);background-image:linear-gradient(top, #5cb85c, #419641)}
+
+/*Overwriting bootstrap css*/
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #2ecbc5;
+color: #fff;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #27ABA6;
+}
+
+/*Overwriting bootstrap end*/
+
+@media screen and (min-width: 800px) {
+	.logoHelper{
+		margin-top: -4.5%;
+		padding-top: 1%;
+	}
+}
+
+
+.required{
+	color: #f00;
+}
+

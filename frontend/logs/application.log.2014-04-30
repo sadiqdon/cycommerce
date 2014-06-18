@@ -1,0 +1,29 @@
+Apr 30 12:42:53 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\frontend\components\Controller.php:19)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#1 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#2 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/
+in C:\wamp\www\yorshop\frontend\components\Controller.php (19)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Apr 30 12:47:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Apr 30 12:48:31 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/computer/printers-and-scanners/hp-laserjet-pro-100-m175a-color-multifunction-printer/
+---

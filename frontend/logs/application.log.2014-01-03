@@ -1,0 +1,157 @@
+Jan 03 10:57:58 [php                           ] : <E> Undefined variable: id (C:\wamp\www\yorshop\frontend\controllers\ProductController.php:43)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#3 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#6 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/components/Apple-Cinema-30-inches/
+in C:\wamp\www\yorshop\frontend\controllers\ProductController.php (43)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 03 10:58:29 [php                           ] : <E> Undefined variable: options (C:\wamp\www\yorshop\frontend\views\product\_product.php:37)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\frontend\views\product\product.php(1): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(43): ProductController->render()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionView()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#12 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#15 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/components/Apple-Cinema-30-inches/
+in C:\wamp\www\yorshop\frontend\views\product\_product.php (37)
+in C:\wamp\www\yorshop\frontend\views\product\product.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\ProductController.php (43)
+Jan 03 10:59:28 [exception.CException          ] : <E> exception 'CException' with message 'Alias "yiiwheels.widgets.datepicker.WhDatePicker" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:341
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(146): YiiBase::import('yiiwheels.widge...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductController), 'yiiwheels.widge...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('yiiwheels.widge...', Array)
+#3 C:\wamp\www\yorshop\frontend\views\product\_product_option.php(48): CBaseController->widget('yiiwheels.widge...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\frontend\views\product\_product.php(37): CController->renderPartial('_product_option', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\frontend\views\product\product.php(1): CController->renderPartial('_product', Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('product', Array, true)
+#16 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(43): CController->render('product', Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionView()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#22 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/view')
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/view')
+#24 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#26 {main}
+REQUEST_URI=/yorshop/frontend/www/product/components/Apple-Cinema-30-inches/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Jan 03 12:01:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:10:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:13:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:14:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:15:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:17:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:18:49 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:20:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 03 12:21:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---

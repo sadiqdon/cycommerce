@@ -1,0 +1,43 @@
+Feb 11 08:09:10 [php                           ] : <E> Non-static method Controller::getCategoryParams() should not be called statically, assuming $this from incompatible context (C:\wamp\www\yorshop\frontend\widgets\views\category_navigation.php:38)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CategoryNavigation->renderFile()
+#1 C:\wamp\www\yorshop\frontend\widgets\CategoryNavigation.php(32): CategoryNavigation->render()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): CategoryNavigation->run()
+#3 C:\wamp\www\yorshop\frontend\views\category\_default.php(2): CategoryController->widget()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#7 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#12 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(168): CategoryController->render()
+#13 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#19 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/phone/?brand=sony
+in C:\wamp\www\yorshop\frontend\widgets\views\category_navigation.php (38)
+in C:\wamp\www\yorshop\frontend\widgets\CategoryNavigation.php (32)
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (2)
+Feb 11 09:27:23 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart/...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart/...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/30/product/view
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/43/
+---

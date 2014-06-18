@@ -1,0 +1,286 @@
+Jan 07 11:44:16 [php                           ] : <E> Array to string conversion (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:439)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php(299): CUrlRule->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#2 C:\wamp\www\yorshop\frontend\views\category\_default.php(46): WebApplication->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#6 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#11 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(163): CategoryController->render()
+#12 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/mp3-players/
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (46)
+in C:\wamp\www\yorshop\frontend\views\category\default.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (163)
+Jan 07 11:45:36 [php                           ] : <E> Undefined index: option (C:\wamp\www\yorshop\frontend\controllers\CartController.php:81)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/48/?quantity=1&quick=1&category=mp3-players&product=iPod-Classic
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (81)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 07 12:22:11 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\frontend\controllers\ProductController.php:45
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionView()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('view')
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/view')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/view')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/yorshop/frontend/www/product/view/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/
+---
+Jan 07 12:41:34 [exception.CException          ] : <E> exception 'CException' with message 'CartController and its behaviors do not have a method or closure named "productLink".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\cart\_cart.php(18): CComponent->__call('productLink', Array)
+#1 C:\wamp\www\yorshop\frontend\views\cart\_cart.php(18): CartController->productLink('42')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#5 C:\wamp\www\yorshop\frontend\views\cart\cart.php(1): CController->renderPartial('_cart', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('cart', Array, true)
+#10 C:\wamp\www\yorshop\frontend\controllers\CartController.php(106): CController->render('cart', Array)
+#11 [internal function]: CartController->actionAddToCart('48')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/48/?quantity=1&quick=1&product=iPod-Classic&subcategory=desktops&category=clothes
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/
+---
+Jan 07 13:20:12 [php                           ] : <E> Missing argument 1 for CNumberFormatter::__construct(), called in C:\wamp\www\yorshop\common\components\UtilityHelper.php on line 20 and defined (C:\wamp\www\yorshop\common\lib\Yii\i18n\CNumberFormatter.php:69)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(130): require()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductBlock->renderInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): ProductBlock->renderFile()
+#3 C:\wamp\www\yorshop\frontend\widgets\ProductBlock.php(13): ProductBlock->render()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): ProductBlock->run()
+#5 C:\wamp\www\yorshop\frontend\views\layouts\column3.php(43): ProductController->widget()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): ProductController->renderFile()
+#9 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(43): ProductController->render()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionView()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#15 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#17 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#18 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/clothes/desktops/iPhone/
+in C:\wamp\www\yorshop\common\components\UtilityHelper.php (20)
+in C:\wamp\www\yorshop\frontend\widgets\views\productblock.php (37)
+in C:\wamp\www\yorshop\frontend\widgets\ProductBlock.php (13)
+Jan 07 13:33:41 [exception.CException          ] : <E> exception 'CException' with message 'CNumberFormatter and its behaviors do not have a method or closure named "formatNumber".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\UtilityHelper.php(21): CComponent->__call('formatNumber', Array)
+#1 C:\wamp\www\yorshop\common\components\UtilityHelper.php(21): CNumberFormatter->formatNumber(Array, '340.0000')
+#2 C:\wamp\www\yorshop\frontend\views\category\_default.php(60): UtilityHelper::formatPrice('340.0000')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CController->renderPartial('_default', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('default', Array, true)
+#11 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(163): CController->render('default', Array)
+#12 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/clothes/desktops/iPhone/
+---
+Jan 07 13:35:05 [exception.CException          ] : <E> exception 'CException' with message 'CNumberFormatter and its behaviors do not have a method or closure named "formatNumber".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\UtilityHelper.php(21): CComponent->__call('formatNumber', Array)
+#1 C:\wamp\www\yorshop\common\components\UtilityHelper.php(21): CNumberFormatter->formatNumber(Array, '340.0000')
+#2 C:\wamp\www\yorshop\frontend\views\category\_default.php(60): UtilityHelper::formatPrice('340.0000')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CController->renderPartial('_default', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('default', Array, true)
+#11 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(163): CController->render('default', Array)
+#12 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(80): CategoryController->paginate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/frontend/www/category/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/clothes/desktops/iPhone/
+---
+Jan 07 13:41:51 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:45:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:50:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:53:32 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:54:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:56:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 13:58:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 14:03:08 [php                           ] : <E> call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members (C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php:1906)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\product\_product_option.php(43): listData()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#4 C:\wamp\www\yorshop\frontend\views\product\_product.php(43): ProductController->renderPartial()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#8 C:\wamp\www\yorshop\frontend\views\product\product.php(1): ProductController->renderPartial()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): ProductController->renderPartial()
+#13 C:\wamp\www\yorshop\frontend\controllers\ProductController.php(43): ProductController->render()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionView()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): ProductController->runAction()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#19 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/product/clothes/desktops/Apple-Cinema-30-inches/
+in C:\wamp\www\yorshop\frontend\views\product\_product_option.php (43)
+in C:\wamp\www\yorshop\frontend\views\product\_product.php (43)
+in C:\wamp\www\yorshop\frontend\views\product\product.php (1)
+Jan 07 14:04:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 07 14:04:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---

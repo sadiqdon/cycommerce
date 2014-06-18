@@ -1,0 +1,4 @@
+Jun 09 14:45:48 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 09 14:45:48 [application                   ] : <W> Failed to set unsafe attribute "zip" of "Theme".
+Jun 09 14:49:15 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 09 14:49:15 [application                   ] : <W> Failed to set unsafe attribute "zip" of "Theme".

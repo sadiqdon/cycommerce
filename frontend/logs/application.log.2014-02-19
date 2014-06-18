@@ -1,0 +1,91 @@
+Feb 19 12:30:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "backend/www".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('backend/www')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('backend/www')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/backend/www
+---
+Feb 19 18:11:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "user/cart/cart".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/cart/cart')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/cart/cart')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/user/cart/cart/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/user/profile/
+---
+Feb 19 18:17:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "user/changepassword".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/changepass...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/changepass...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/user/changepassword
+---
+Feb 19 19:34:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "user/changepassword".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/changepass...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/changepass...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/user/changepassword
+---
+Feb 19 19:34:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "recovery/changepassword".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('recovery/change...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('recovery/change...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/recovery/changepassword
+---
+Feb 19 19:37:32 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "changepassword".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('changepassword')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('changepassword')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/recovery/c...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/recovery/c...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/frontend/www/user/recovery/changepassword
+---
+Feb 19 19:54:21 [exception.CException          ] : <E> exception 'CException' with message 'Property "DefaultController.tab" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yorshop\common\modules\user\views\user\index.php(7): CComponent->__set('tab', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('/user/index', Array, true)
+#5 C:\wamp\www\yorshop\common\modules\user\controllers\DefaultController.php(48): CController->render('/user/index', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#16 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user')
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user')
+#18 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/yorshop/frontend/www/user/
+---
+Feb 19 20:13:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "profile".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('profile')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('profile')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/profile/
+---

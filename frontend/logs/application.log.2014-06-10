@@ -1,0 +1,40 @@
+Jun 10 19:21:32 [php                           ] : <E> Undefined variable: cat (C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\widgets\ProductBlock.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(784): SiteController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\SiteController.php(43): SiteController->render()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\widgets\ProductBlock.php (13)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\layouts\column3.php (76)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\SiteController.php (43)
+Jun 10 19:24:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "store".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('store')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('store')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/store
+---
+Jun 10 19:26:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('site/undefined')
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('site/undefined')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/undefined
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/site/
+---

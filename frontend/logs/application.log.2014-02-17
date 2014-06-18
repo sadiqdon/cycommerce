@@ -1,0 +1,260 @@
+Feb 17 19:08:10 [php                           ] : <E> Undefined variable: cat (C:\wamp\www\yorshop\frontend\widgets\ProductBlock.php:13)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(784): SiteController->renderFile()
+#3 C:\wamp\www\yorshop\frontend\controllers\SiteController.php(42): SiteController->render()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/
+in C:\wamp\www\yorshop\frontend\widgets\ProductBlock.php (13)
+in C:\wamp\www\yorshop\frontend\views\layouts\column3.php (43)
+in C:\wamp\www\yorshop\frontend\controllers\SiteController.php (42)
+Feb 17 19:26:26 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseImage.php(23): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Image.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(215): model()
+#8 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#9 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(271): CActiveFinder->__construct()
+#10 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(141): Product->getRelated()
+#11 C:\wamp\www\yorshop\frontend\views\category\_default.php(58): Product->__get()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#15 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#20 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#21 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#27 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#29 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#30 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/computer/
+in C:\wamp\www\yorshop\common\models\_base\BaseImage.php (23)
+in C:\wamp\www\yorshop\common\models\Image.php (6)
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (58)
+Feb 17 19:27:12 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseImage.php(23): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Image.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(215): model()
+#8 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#9 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(271): CActiveFinder->__construct()
+#10 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(141): Product->getRelated()
+#11 C:\wamp\www\yorshop\frontend\views\category\_default.php(58): Product->__get()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#15 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#20 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#21 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#27 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#29 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#30 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/phones/
+in C:\wamp\www\yorshop\common\models\_base\BaseImage.php (23)
+in C:\wamp\www\yorshop\common\models\Image.php (6)
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (58)
+Feb 17 19:27:20 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseImage.php(23): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Image.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(215): model()
+#8 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#9 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(271): CActiveFinder->__construct()
+#10 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(141): Product->getRelated()
+#11 C:\wamp\www\yorshop\frontend\views\category\_default.php(58): Product->__get()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#15 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#20 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#21 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#27 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#29 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#30 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/electronics/
+in C:\wamp\www\yorshop\common\models\_base\BaseImage.php (23)
+in C:\wamp\www\yorshop\common\models\Image.php (6)
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (58)
+Feb 17 19:27:50 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseImage.php(23): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Image.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(215): model()
+#8 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#9 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(271): CActiveFinder->__construct()
+#10 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(141): Product->getRelated()
+#11 C:\wamp\www\yorshop\frontend\views\category\_default.php(58): Product->__get()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#15 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#20 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#21 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#27 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#29 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#30 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/phones/
+in C:\wamp\www\yorshop\common\models\_base\BaseImage.php (23)
+in C:\wamp\www\yorshop\common\models\Image.php (6)
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (58)
+Feb 17 19:38:45 [php                           ] : <E> Undefined offset: 0 (C:\wamp\www\yorshop\frontend\views\category\_default.php:58)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#1 C:\wamp\www\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#6 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#7 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/category/phones/
+in C:\wamp\www\yorshop\frontend\views\category\_default.php (58)
+in C:\wamp\www\yorshop\frontend\views\category\default.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (176)
+Feb 17 19:46:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/?page=2
+---
+Feb 17 19:49:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 17 20:05:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 17 20:05:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/56ae113417aa7f1137c40ba0066898fb.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/56a...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/56a...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/111/56ae113417aa7f1137c40ba0066898fb.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 17 20:07:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 17 20:44:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 17 20:44:32 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---

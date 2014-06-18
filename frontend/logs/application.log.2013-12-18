@@ -1,0 +1,867 @@
+Dec 18 13:58:02 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => null
+            'model' => 'Product 1'
+            'quantity' => 2
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => null
+            'model' => 'Product 1'
+            'quantity' => '1'
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 13:59:06 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => null
+            'model' => 'Product 1'
+            'quantity' => 3
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => null
+            'model' => 'Product 1'
+            'quantity' => '1'
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        2 => array
+        (
+            'product_id' => '28'
+            'name' => null
+            'model' => 'Product 1'
+            'quantity' => '1'
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 13:59:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 13:59:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:05 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:07:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:19 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:07:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:38 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:07:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:07:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:08:13 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 2
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (69)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:08:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:08:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:09:17 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 3
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (70)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:09:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:09:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:09:23 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 4
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (70)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:09:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:09:24 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:10:51 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 5
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (70)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:10:52 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:10:52 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:11:09 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 6
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (70)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:11:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:11:10 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:12:55 [exception.CException          ] : <E> exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "user".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\controllers\CartController.php(101): CComponent->__call('user', Array)
+#1 C:\wamp\www\yorshop\frontend\controllers\CartController.php(101): CWebUser->user()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:13:17 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseAddress.php(29): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Address.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\frontend\controllers\CartController.php(104): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#12 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#15 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\common\models\_base\BaseAddress.php (29)
+in C:\wamp\www\yorshop\common\models\Address.php (6)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (104)
+Dec 18 14:16:58 [exception.CException          ] : <E> exception 'CException' with message 'Alias "bootstrap.widgets.TbActiveForm" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:341
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CartController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\yorshop\frontend\views\cart\_shipping.php(10): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('_shipping', Array, true)
+#8 C:\wamp\www\yorshop\frontend\controllers\CartController.php(136): CController->render('_shipping', Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#14 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#16 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#18 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:18:12 [php                           ] : <E> include(GxActiveRecord.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\_base\BaseZone.php(22): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(395): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\common\models\Zone.php(6): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#5 unknown(0): autoload()
+#6 C:\wamp\www\yorshop\frontend\views\cart\_shipping.php(57): spl_autoload_call()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#11 C:\wamp\www\yorshop\frontend\controllers\CartController.php(136): CartController->render()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#17 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#19 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#20 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\common\models\_base\BaseZone.php (22)
+in C:\wamp\www\yorshop\common\models\Zone.php (6)
+in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php (57)
+Dec 18 14:19:07 [php                           ] : <E> Missing argument 2 for CHtml::listData(), called in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php on line 57 and defined (C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php:1836)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#3 C:\wamp\www\yorshop\frontend\controllers\CartController.php(136): CartController->render()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php (57)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (136)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 18 14:19:40 [php                           ] : <E> Missing argument 2 for CHtml::listData(), called in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php on line 57 and defined (C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php:1836)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#3 C:\wamp\www\yorshop\frontend\controllers\CartController.php(136): CartController->render()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php (57)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (136)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Dec 18 14:24:32 [order.actions.create          ] : <E> OrderCreateActionvaliid: array
+(
+    'items' => array
+    (
+        0 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 7
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+        1 => array
+        (
+            'product_id' => '28'
+            'name' => 'HTC Touch HD'
+            'model' => 'Product 1'
+            'quantity' => 1
+            'stock' => '939'
+            'price' => '100.0000'
+            'total' => 100
+        )
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (70)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Dec 18 14:24:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:24:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:24:38 [exception.CException          ] : <E> exception 'CException' with message 'CartController contains improperly nested widget tags in its view "C:\wamp\www\yorshop\frontend\views\cart\_shipping.php". A TbActiveForm widget does not have an endWidget() call.' in C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php:101
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('_shipping', Array, true)
+#2 C:\wamp\www\yorshop\frontend\controllers\CartController.php(136): CController->render('_shipping', Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/28/?quantity=1
+---
+Dec 18 14:25:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:25:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:27:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:27:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:28:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 14:28:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:44:01 [exception.CException          ] : <E> exception 'CException' with message 'Property "Address.email" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('email')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CActiveRecord->__get('email')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Address), 'email')
+#3 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(2221): CHtml::activeInputField('text', Object(Address), 'email', Array)
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(1497): TbHtml::activeTextInputField('text', Object(Address), 'email', Array)
+#5 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbActiveForm.php(180): TbHtml::activeTextField(Object(Address), 'email', Array)
+#6 C:\wamp\www\yorshop\frontend\views\cart\_shipping.php(38): TbActiveForm->textField(Object(Address), 'email', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('_shipping', Array, true)
+#11 C:\wamp\www\yorshop\frontend\controllers\CartController.php(137): CController->render('_shipping', Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#17 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#19 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#21 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:49:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:49:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:50:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:50:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:52:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:52:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:56:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:56:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:57:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:57:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:58:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-theme.min.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('css/bootstrap-t...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('css/bootstrap-t...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 16:58:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/banner_tablet".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/banner_tabl...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/banner_tabl...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/banner_tablet
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Dec 18 17:00:06 [exception.CException          ] : <E> exception 'CException' with message 'CartController cannot find the requested view "payment".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('payment', Array, true)
+#1 C:\wamp\www\yorshop\frontend\controllers\CartController.php(130): CController->render('payment', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('checkout')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/checkout')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/checkout')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---

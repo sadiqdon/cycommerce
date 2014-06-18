@@ -1,0 +1,173 @@
+May 07 14:20:24 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/checkout/
+---
+May 07 15:08:27 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/135/
+---
+May 07 16:12:06 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/136/
+---
+May 07 16:13:47 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/136/
+---
+May 07 16:14:03 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/136/
+---
+May 07 16:14:13 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/136/
+---
+May 07 16:19:08 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/136/
+---
+May 07 17:12:55 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/137/
+---
+May 07 17:14:22 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/137/
+---
+May 07 17:14:28 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/137/
+---
+May 07 17:14:39 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/137/
+---
+May 07 19:17:07 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/payment/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/payment/139/
+---

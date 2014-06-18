@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title }}</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://getbootstrap.com/docs-assets/css/docs.css">
+    <link rel="stylesheet" href="showup.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="showup.js"></script>
+  </head>
+  <body style="padding-top: 80px;">
+
+    <!-- Main navigation -->
+    {{> navbar }}
+
+    <div class="container">
+      <!-- Content -->
+      {{#markdown}}
+        {{> body }}
+      {{/markdown}}
+
+      <!-- Back-to-top buttons -->
+      {{> buttons }}
+    </div>
+
+    <!-- Showup Plugin -->
+    <script>
+      $().showUp('.navbar', {
+        upClass: '{{upClass}}',
+        downClass: '{{downClass}}'
+      });
+    </script>
+  </body>
+</html>

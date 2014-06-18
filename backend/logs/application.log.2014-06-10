@@ -1,0 +1,419 @@
+Jun 10 16:45:33 [exception.CHttpException.500  ] : <E> exception 'CHttpException' with message 'Could not upload file' in C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\CrudController.php:382
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): CrudController->actionUpload()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('upload')
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('theme/upload')
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('theme/upload')
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#18 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/upload/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme
+---
+Jun 10 17:11:52 [php                           ] : <E> Undefined variable: zip (C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\_form.php:56)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): ThemeController->renderFile()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\create.php(18): ThemeController->renderPartial()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): ThemeController->renderInternal()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): ThemeController->renderFile()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): ThemeController->renderPartial()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\ThemeController.php(37): ThemeController->render()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): ThemeController->actionCreate()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): ThemeController->runAction()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): ThemeController->filterChangePassword()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): ThemeController->filterAccessControl()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): ThemeController->runActionWithFilters()
+#20 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): ThemeController->run()
+#21 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#22 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#23 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#24 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/create/
+Jun 10 17:13:22 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 10 17:13:22 [exception.CException          ] : <E> exception 'CException' with message 'WhBasicFileUpload must specify "model" and "attribute" or "name" property values.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\widgets\CInputWidget.php:60
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\extensions\yiiwheels\widgets\fileupload\WhBasicFileUpload.php(53): CInputWidget->resolveNameID()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\extensions\yiiwheels\widgets\fileupload\WhBasicFileUpload.php(44): WhBasicFileUpload->renderField()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(173): WhBasicFileUpload->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\_form.php(84): CBaseController->widget('yiiwheels.widge...', Array)
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\ThemeController.php(37): CController->render('create', Array)
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): ThemeController->actionCreate()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#19 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#27 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('theme/create')
+#28 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('theme/create')
+#29 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#31 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/create/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme
+---
+Jun 10 17:17:27 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 10 17:17:27 [exception.CException          ] : <E> exception 'CException' with message 'WhBasicFileUpload must specify "model" and "attribute" or "name" property values.' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\widgets\CInputWidget.php:60
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\extensions\yiiwheels\widgets\fileupload\WhBasicFileUpload.php(53): CInputWidget->resolveNameID()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\extensions\yiiwheels\widgets\fileupload\WhBasicFileUpload.php(44): WhBasicFileUpload->renderField()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(173): WhBasicFileUpload->run()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\_form.php(84): CBaseController->widget('yiiwheels.widge...', Array)
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\backend\views\theme\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\ThemeController.php(37): CController->render('create', Array)
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): ThemeController->actionCreate()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#19 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#27 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('theme/create')
+#28 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('theme/create')
+#29 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#31 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/create/
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme
+---
+Jun 10 17:23:43 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 10 17:23:43 [application                   ] : <E> Error Dump:
+array
+(
+    'zip' => array
+    (
+        0 => 'Zip cannot be blank.'
+    )
+)
+Jun 10 17:25:37 [application                   ] : <W> Failed to set unsafe attribute "name" of "Theme".
+Jun 10 17:25:37 [application                   ] : <E> Error Dump:
+array
+(
+    'zip' => array
+    (
+        0 => 'Zip cannot be blank.'
+    )
+)
+Jun 10 17:31:50 [php                           ] : <E> Undefined index: path (C:\xampp\htdocs\SITE\cycommerce_demo\backend\controllers\ThemeController.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(133): ThemeController->runAction()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): ThemeController->filterChangePassword()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CInlineFilter.php(58): ThemeController->filterAccessControl()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): ThemeController->runActionWithFilters()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): ThemeController->run()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#15 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/create/
+Jun 10 17:33:04 [application                   ] : <E> Error Dump:
+array
+(
+    0 => array
+    (
+        'path' => 'C:\\xampp\\htdocs\\SITE\\cycommerce_demo\\frontend\\www\\uploads\\tmp/0d5a18e81136d43cf018c189c6c8330b.zip'
+        'thumb' => 'C:\\xampp\\htdocs\\SITE\\cycommerce_demo\\frontend\\www\\uploads\\tmp/0d5a18e81136d43cf018c189c6c8330b.zip'
+        'filename' => '0d5a18e81136d43cf018c189c6c8330b.zip'
+        'size' => 101235
+        'mime' => 'application/zip'
+        'name' => 'xrtml-PHP-1.5.3.zip'
+    )
+)
+Jun 10 18:39:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "activate".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(270): CController->missingAction('activate')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): CController->run('activate')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('theme/activate')
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('theme/activate')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/theme/activate
+---
+Jun 10 18:40:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:40:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:40:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:40:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:40:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:40:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:43:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:43:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:43:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:43:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_2_epayment.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_2_...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_2_...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_2_epayment.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:45:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:47:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:47:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:47:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme
+---
+Jun 10 18:47:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme/
+---
+Jun 10 18:47:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme/
+---
+Jun 10 18:51:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/checkout_shopping.png".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/checkout_sh...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/checkout_sh...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/checkout_shopping.png
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme/
+---
+Jun 10 18:51:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/Interswitch_Verve_Mastercard.gif".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('img/Interswitch...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/Interswitch...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/backend/www/img/Interswitch_Verve_Mastercard.gif
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/backend/www/theme/activateTheme/
+---

@@ -1,0 +1,1 @@
+<?php $this->renderPartial('_product', array('product' => $product, 'options'=>$options)); ?>

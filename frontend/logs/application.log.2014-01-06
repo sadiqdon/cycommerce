@@ -1,0 +1,1358 @@
+Jan 06 07:46:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 07:48:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 07:49:53 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 07:52:18 [php                           ] : <E> Undefined index: category (C:\wamp\www\yorshop\frontend\controllers\CartController.php:66)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (66)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 06 07:57:00 [php                           ] : <E> Undefined index: category (C:\wamp\www\yorshop\frontend\controllers\CartController.php:66)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (66)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 06 08:03:55 [exception.CException          ] : <E> exception 'CException' with message 'Property "Product.category" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('category')
+#1 C:\wamp\www\yorshop\frontend\controllers\CartController.php(67): CActiveRecord->__get('category')
+#2 [internal function]: CartController->actionAddToCart('42')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart')
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart')
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/components/Apple-Cinema-30-inches/
+---
+Jan 06 08:05:16 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart/...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart/...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/product/view
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/components/Apple-Cinema-30-inches/
+---
+Jan 06 08:37:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:38:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:48:02 [php                           ] : <E> include(TbHtml.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\controllers\CartController.php(77): spl_autoload_call()
+#1 unknown(0): CartController->actionAddToCart()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#8 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#11 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (77)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 06 08:49:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:49:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:51:26 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/?subcategory=desktops&category=clothes
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/clothes/desktops/Apple-Cinema-30-inches/
+---
+Jan 06 08:54:13 [exception.CHttpException.400  ] : <E> exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('addtocart')
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/addtocart')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/addtocart')
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/?subcategory=desktops&category=clothes
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/clothes/desktops/Apple-Cinema-30-inches/
+---
+Jan 06 08:54:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:59:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:59:13 [php                           ] : <E> Undefined index: OrderOption (C:\wamp\www\yorshop\frontend\controllers\CartController.php:361)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#6 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#8 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#9 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (361)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 08:59:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 08:59:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+---
+Jan 06 09:10:10 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 09:12:08 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 09:14:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 09:25:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 09:26:47 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 09:27:43 [php                           ] : <E> Undefined variable: data (C:\wamp\www\yorshop\frontend\controllers\CartController.php:329)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#6 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#8 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#9 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (329)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 09:28:50 [php                           ] : <E> Undefined variable: data (C:\wamp\www\yorshop\frontend\controllers\CartController.php:330)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#6 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#8 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#9 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (330)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 09:29:12 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => array
+    (
+        'name' => 'Textarea'
+        'product_option_id' => '209'
+        'order_product_id' => '42'
+        'type' => 'textarea'
+        'value' => '344'
+    )
+    1 => array
+    (
+        'name' => 'Select'
+        'product_option_id' => '217'
+        'order_product_id' => '42'
+        'type' => 'select'
+        'product_option_value_id' => '1'
+    )
+    2 => array
+    (
+        'name' => 'Radio'
+        'product_option_id' => '218'
+        'order_product_id' => '42'
+        'type' => 'radio'
+        'product_option_value_id' => '6'
+    )
+    3 => array
+    (
+        'name' => 'Delivery Date'
+        'product_option_id' => '220'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/08/2014'
+    )
+    4 => array
+    (
+        'name' => 'Date'
+        'product_option_id' => '221'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/02/2014'
+    )
+    5 => array
+    (
+        'name' => 'Checkbox'
+        'product_option_id' => '223'
+        'order_product_id' => '42'
+        'type' => 'checkbox'
+        'product_option_value_id' => array
+        (
+            0 => '11'
+        )
+    )
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (363)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:01:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 12:02:38 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => array
+    (
+        'name' => 'Textarea'
+        'product_option_id' => '209'
+        'order_product_id' => '42'
+        'type' => 'textarea'
+        'value' => '344'
+    )
+    1 => array
+    (
+        'name' => 'Select'
+        'product_option_id' => '217'
+        'order_product_id' => '42'
+        'type' => 'select'
+        'product_option_value_id' => '1'
+    )
+    2 => array
+    (
+        'name' => 'Radio'
+        'product_option_id' => '218'
+        'order_product_id' => '42'
+        'type' => 'radio'
+        'product_option_value_id' => '6'
+    )
+    3 => array
+    (
+        'name' => 'Delivery Date'
+        'product_option_id' => '220'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/21/2014'
+    )
+    4 => array
+    (
+        'name' => 'Date'
+        'product_option_id' => '221'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/14/2014'
+    )
+    5 => array
+    (
+        'name' => 'Checkbox'
+        'product_option_id' => '223'
+        'order_product_id' => '42'
+        'type' => 'checkbox'
+        'product_option_value_id' => array
+        (
+            0 => '11'
+        )
+    )
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (372)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:03:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 12:18:47 [php                           ] : <E> Undefined variable: product_option_value_id (C:\wamp\www\yorshop\frontend\controllers\CartController.php:351)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#6 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#8 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#9 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (351)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:19:39 [php                           ] : <E> Undefined index: product_option_value_id (C:\wamp\www\yorshop\frontend\controllers\CartController.php:351)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#6 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#8 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#9 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (351)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:20:41 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => array
+    (
+        'name' => 'Textarea'
+        'product_option_id' => '209'
+        'order_product_id' => '42'
+        'type' => 'textarea'
+        'value' => '344'
+    )
+    1 => array
+    (
+        'name' => 'Select'
+        'product_option_id' => '217'
+        'order_product_id' => '42'
+        'type' => 'select'
+        'product_option_value_id' => '1'
+    )
+    2 => array
+    (
+        'name' => 'Radio'
+        'product_option_id' => '218'
+        'order_product_id' => '42'
+        'type' => 'radio'
+        'product_option_value_id' => '7'
+    )
+    3 => array
+    (
+        'name' => 'Delivery Date'
+        'product_option_id' => '220'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/15/2014'
+    )
+    4 => array
+    (
+        'name' => 'Date'
+        'product_option_id' => '221'
+        'order_product_id' => '42'
+        'type' => 'date'
+        'value' => '01/24/2014'
+    )
+    5 => array
+    (
+        'name' => 'Checkbox'
+        'product_option_id' => '223'
+        'order_product_id' => '42'
+        'type' => 'checkbox'
+        'product_option_value_id' => array
+        (
+            0 => '11'
+        )
+    )
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (386)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:23:39 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`yorshop`.`order_option`, CONSTRAINT `order_option_ibfk_6` FOREIGN KEY (`order_product_id`) REFERENCES `order_product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `order_option` (`product_option_value_id`, `name`, `product_option_id`, `order_product_id`, `type`, `value`, `order_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6). Bound with :yp0=0, :yp1='Textarea', :yp2=209, :yp3=42, :yp4='textarea', :yp5='344', :yp6=11.
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (280)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 06 12:23:39 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`yorshop`.`order_option`, CONSTRAINT `order_option_ibfk_6` FOREIGN KEY (`order_product_id`) REFERENCES `order_product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `order_option` (`product_option_value_id`, `name`, `product_option_id`, `order_product_id`, `type`, `value`, `order_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6). Bound with :yp0=0, :yp1='Textarea', :yp2=209, :yp3=42, :yp4='textarea', :yp5='344', :yp6=11' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\yorshop\frontend\controllers\CartController.php(280): CActiveRecord->save()
+#3 [internal function]: CartController->actionPayment('16')
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#10 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#12 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/payment/16/
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/16/
+---
+Jan 06 12:52:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 12:52:44 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => array
+    (
+        'name' => 'Textarea'
+        'product_option_id' => '209'
+        'type' => 'textarea'
+        'value' => ''
+    )
+    1 => array
+    (
+        'name' => 'Select'
+        'product_option_id' => '217'
+        'type' => 'select'
+        'product_option_value_id' => '1'
+    )
+    2 => array
+    (
+        'name' => 'Radio'
+        'product_option_id' => '218'
+        'type' => 'radio'
+    )
+    3 => array
+    (
+        'name' => 'Delivery Date'
+        'product_option_id' => '220'
+        'type' => 'date'
+        'value' => ''
+    )
+    4 => array
+    (
+        'name' => 'Date'
+        'product_option_id' => '221'
+        'type' => 'date'
+        'value' => ''
+    )
+    5 => array
+    (
+        'name' => 'Checkbox'
+        'product_option_id' => '223'
+        'type' => 'checkbox'
+        'product_option_value_id' => array
+        (
+            0 => '11'
+        )
+    )
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 12:56:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 13:03:15 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:05:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:05:43 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - ---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:05:44 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:36:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:36:48 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - ---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:36:48 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:36:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:43:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:45:53 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - ---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:45:53 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:45:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:46:23 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - ---array
+(
+    'order_product_id' => array
+    (
+        0 => 'Order Product cannot be blank.'
+    )
+)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:46:23 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:46:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:47:15 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - ---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:15 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:47:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Radio - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Delivery Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Checkbox - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (347)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:47:38 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:48:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Radio - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Delivery Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Date - ---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 14:48:39 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - ---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 14:48:42 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:05:41 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Radio - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Delivery Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Checkbox - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (347)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Checkbox - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (347)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:19:07 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+    6 => '223'
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 15:26:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Radio - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Delivery Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Checkbox - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (347)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 15:27:33 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 15:50:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:52:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:55:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 15:58:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 16:00:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Textarea - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Radio - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Delivery Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Date - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (368)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Checkbox - 1---array()
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (409)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (347)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+Jan 06 16:04:52 [order.actions.create          ] : <E> OrderCreateActionaappP: array
+(
+    0 => '209'
+    1 => '217'
+    2 => '218'
+    3 => '220'
+    4 => '221'
+    5 => '223'
+)---1 - 1---
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (389)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (63)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 16:50:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 16:50:37 [exception.CException          ] : <E> exception 'CException' with message 'CartController cannot find the requested view "index".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wamp\www\yorshop\frontend\controllers\CartController.php(45): CController->render('index')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionIndex()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/frontend/www/cart/
+---
+Jan 06 17:53:34 [php                           ] : <E> Undefined variable: product (C:\wamp\www\yorshop\frontend\components\Controller.php:55)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#2 C:\wamp\www\yorshop\frontend\views\cart\cart.php(1): CartController->renderPartial()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#7 C:\wamp\www\yorshop\frontend\controllers\CartController.php(118): CartController->render()
+#8 unknown(0): CartController->actionRemoveFromCart()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#15 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#17 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#18 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/removefromcart/1/
+in C:\wamp\www\yorshop\frontend\components\Controller.php (55)
+in C:\wamp\www\yorshop\frontend\views\cart\_cart.php (18)
+in C:\wamp\www\yorshop\frontend\views\cart\cart.php (1)
+Jan 06 17:58:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 18:03:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 18:03:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 18:08:59 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='clothes'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:08:59 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='clothes'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('clothes')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/clothes/?search=canon&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/clothes/?sort=brand&type=top_seller
+---
+Jan 06 18:11:46 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='cameras'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:11:46 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='cameras'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('cameras')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/cameras/?search=canon&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/cameras/
+---
+Jan 06 18:14:37 [php                           ] : <E> Undefined index: category (C:\wamp\www\yorshop\frontend\controllers\CartController.php:61)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#5 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#8 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/addtocart/42/?quantity=1&quick=1
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (61)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+in C:\wamp\www\yorshop\frontend\www\index.php (38)
+Jan 06 18:19:38 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (147)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:19:38 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(147): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('components')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/?search=apple&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Jan 06 18:21:04 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (148)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:21:04 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(148): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('components')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/?search=apple&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Jan 06 18:41:22 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (148)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:41:22 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  LEFT OUTER JOIN `product_description` `productDescriptions` ON (`productDescriptions`.`product_id`=`t`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en') AND (productDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(148): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('components')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/?search=apple&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Jan 06 18:42:10 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components', :ycp0='%apple%'.
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (149)
+in C:\wamp\www\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Jan 06 18:42:10 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptions.name' in 'where clause'. The SQL statement executed was: SELECT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE ((categoryDescriptions.link = :link OR d2.link = :link2) AND (productDescriptions.name LIKE :ycp0)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='components', :link2='components', :ycp0='%apple%'' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(149): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\wamp\www\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('components')
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/frontend/www/category/components/?search=apple&cat_type=
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/components/
+---
+Jan 06 18:48:59 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 18:58:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 18:58:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---
+Jan 06 19:01:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/glyphicons-...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/yorshop/frontend/www/css/bootstrap.min.css
+---

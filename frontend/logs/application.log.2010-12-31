@@ -1,0 +1,579 @@
+Jan 01 00:06:55 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/addtocart/166/
+---
+Jan 01 00:07:02 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/addtocart/166/
+---
+Jan 01 00:07:06 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/addtocart/166/
+---
+Jan 01 00:28:21 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/cart/checkout/
+---
+Jan 01 00:30:36 [php                           ] : <E> Undefined index: status (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php (45)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php (56)
+Jan 01 00:31:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/checkout/
+---
+Jan 01 00:31:13 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/checkout/
+---
+Jan 01 00:31:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/checkout/
+---
+Jan 01 00:31:14 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (497)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (456)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (80)
+Jan 01 00:35:23 [php                           ] : <E> Undefined index: status (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php (45)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php (56)
+Jan 01 00:37:06 [php                           ] : <E> Undefined index: status (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php (45)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php (56)
+Jan 01 00:38:31 [php                           ] : <E> Undefined index: status (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php:78)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php (78)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Paga.php (48)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+Jan 01 00:40:31 [php                           ] : <E> Undefined index: ResponseDescription (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php:93)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (93)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (61)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+Jan 01 00:42:16 [php                           ] : <E> Undefined index: ResponseDescription (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php:93)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (93)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (61)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+Jan 01 00:42:56 [php                           ] : <E> Undefined index: Amount (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (94)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Interswitch.php (61)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (18)
+Jan 01 00:44:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:44:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:44:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:44:27 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (497)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (456)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (80)
+Jan 01 00:50:34 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:50:35 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:50:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:50:36 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (497)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (456)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (80)
+Jan 01 00:51:24 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:73)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Paga%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (73)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:52:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:52:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:52:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:52:56 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (497)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (456)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (80)
+Jan 01 00:55:56 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:76)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (76)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:56:59 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:76)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (76)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:57:31 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:76)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (76)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:58:04 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:77)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (77)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:58:54 [php                           ] : <E> Undefined index: merch_name (C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php:78)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CBaseController.php(95): PaymentController->renderInternal()
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(869): PaymentController->renderFile()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(782): PaymentController->renderPartial()
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\PaymentController.php(56): PaymentController->render()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\actions\CInlineAction.php(49): PaymentController->actionView()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(286): PaymentController->runAction()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CController.php(265): PaymentController->runActionWithFilters()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(282): PaymentController->run()
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): WebApplication->runController()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#13 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/payment/view?payment=%27Interswitch%27
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (78)
+in C:\xampp\htdocs\SITE\cycommerce_demo\common\payments\Global_pay.php (53)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\themes\cycommerce\views\payment\view.php (14)
+Jan 01 00:59:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.woff".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.woff
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:59:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.ttf".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.ttf
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:59:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "themes/cycommerce/css/fonts/flexslider-icon.svg".' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\components\WebApplication.php(33): CWebApplication->runController('themes/cycommer...')
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('themes/cycommer...')
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/themes/cycommerce/css/fonts/flexslider-icon.svg
+HTTP_REFERER=http://localhost/SITE/cycommerce_demo/frontend/www/cart/addtocart/170/
+---
+Jan 01 00:59:40 [order.actions.create          ] : <E> OrderOptionCreateActionvaliid: Select - 1---array()
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (497)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (456)
+in C:\xampp\htdocs\SITE\cycommerce_demo\frontend\controllers\CartController.php (80)
+Jan 01 00:30:24 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/
+---
+Jan 01 00:30:57 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/
+---
+Jan 01 00:31:29 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/
+---
+Jan 01 00:31:33 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(152): CModule->getComponent('db')
+#4 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\caching\CDbCache.php(77): CDbCache->getDbConnection()
+#5 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CDbCache->init()
+#6 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(216): CModule->getComponent('cache')
+#7 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CUrlManager.php(206): CUrlManager->processRules()
+#8 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CModule.php(387): CUrlManager->init()
+#9 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(510): CModule->getComponent('urlManager')
+#10 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\web\CWebApplication.php(140): CApplication->getUrlManager()
+#11 C:\xampp\htdocs\SITE\cycommerce_demo\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\SITE\cycommerce_demo\frontend\www\index.php(38): CApplication->run()
+#13 {main}
+REQUEST_URI=/SITE/cycommerce_demo/frontend/www/site/
+---

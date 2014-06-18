@@ -1,0 +1,146 @@
+Mar 31 13:26:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/phones/?page=4
+---
+Mar 31 13:26:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/electronics/phones/worksgreat/
+---
+Mar 31 13:26:40 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Mar 31 13:53:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/product/phones/androids-os-phones/lg-optimus-true-hd-lte-p936/
+---
+Mar 31 13:56:55 [php                           ] : <E> include(UtiltyHelper.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\cart\_cart.php(22): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#4 C:\wamp\www\yorshop\frontend\views\cart\cart.php(1): CartController->renderPartial()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#9 C:\wamp\www\yorshop\frontend\controllers\CartController.php(160): CartController->render()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCart()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#15 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#17 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#18 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/cart/
+in C:\wamp\www\yorshop\frontend\views\cart\_cart.php (22)
+in C:\wamp\www\yorshop\frontend\views\cart\cart.php (1)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (160)
+Mar 31 13:59:54 [php                           ] : <E> include(UtiltyHelper.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\frontend\views\cart\_shipping.php(7): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CartController->renderInternal()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CartController->renderFile()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CartController->renderPartial()
+#5 C:\wamp\www\yorshop\frontend\controllers\CartController.php(256): CartController->render()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CartController->actionCheckout()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CartController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CartController->runActionWithFilters()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CartController->run()
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#14 C:\wamp\www\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/frontend/www/cart/checkout/
+in C:\wamp\www\yorshop\frontend\views\cart\_shipping.php (7)
+in C:\wamp\www\yorshop\frontend\controllers\CartController.php (256)
+in C:\wamp\www\yorshop\common\components\WebApplication.php (33)
+Mar 31 14:01:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/118/
+---
+Mar 31 14:38:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/payment/120/
+---
+Mar 31 14:39:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/
+---
+Mar 31 15:06:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/addtocart/129/?quantity=1&quick=1&product=lg-1.0-hp-anti-mosquito-split-air-conditioner&subcategory=split-air-conditioner&category=electronics
+---
+Mar 31 15:15:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/checkout/
+---
+Mar 31 17:45:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/no-image.jp...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/no-image.jp...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/img/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/cart/removefromcart/3/
+---
