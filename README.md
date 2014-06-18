@@ -1,4 +1,6 @@
 cycommerce
 ==========
 
-An ecommerce application built with yii framework
+Cycommerce is a comprehensive e-commerce framework built using Yii framework.
+
+For installation instructions checkout the readme.
